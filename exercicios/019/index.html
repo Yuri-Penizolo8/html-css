@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDs e Classes</title>
+    <style>
+        body{
+            font: normal 1em Arial, Helvetica, serif;
+
+        }
+        a{
+            font-weight: bold;
+            text-decoration: none;
+            color: red;
+        }
+        a:visited{
+            color: darkred;
+        
+
+        }
+        a:hover{
+            text-decoration: underline;
+
+        }
+        div>p{
+            display: none;
+
+        }
+        div:hover>p{ 
+            display: block;
+            background-color: rgb(233, 233, 9); 
+
+        }
+
+        #titulo-principal {
+            background-color: darkblue;
+            color: white;
+            text-align: center;
+        }
+        .topico {
+            color:skyblue 
+            
+        
+        }
+
+    </style>
+</head>
+<body>
+    <h1 id="titulo-principal">Aprenda Desenvolvimento Web</h1>
+    <h1>Aprenda Html</h1>
+    <h2 class="topico"></h2>Semântica Web</h2>
+    <p class="texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti excepturi, sequi quam modi ipsam tempore similique, officia qui error quibusdam, sint itaque? Fuga possimus dolorem ipsa porro officiis ipsum veritatis.</p>
+    <h1>Aprenda CSS</h1>
+    <h2 class="topico"></h2>
+    <p class="texto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus recusandae deserunt, optio sit consequuntur voluptates veritatis, nulla necessitatibus impedit totam, doloribus aliquid! Velit ut, mollitia repellat enim officia quae culpa.</p>
+    <h2>Para aprender desenvolvimento web acesse :</h2>
+    <p>
+    <a href="https://github.com/gustavoguanabara">
+       github do gustavo guanabra
+
+    </a>
+    </p>
+    <p>
+    <a href="https://www.w3schools.com/">
+        Site mãe de HTML e CSS
+
+    </a>
+    </p>
+    <p>
+    <a href=" https://www.youtube.com/c/CursoemV%C3%ADdeo" class="especial">
+        Curso em vídeo
+       
+    </a>
+    </p>
+    <div class="hover">
+        passe o mouse aqui
+    <p class="hidden-text">Surpresaaa</p>
+    </div>
+</body>
+</html>
